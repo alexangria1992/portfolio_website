@@ -25,8 +25,8 @@ const projects = [
       'A gym website created with nextjs, framer-motion and tailwindcss',
     stack: [{ name: 'NextJs' }, { name: 'TailwindCss' }],
     image: '/assets/work/thumb1.png',
-    live: '',
-    github: '',
+    live: 'https://fit-physique-website-degw.vercel.app/',
+    github: 'https://github.com/alexangria1992/fitPhysique-Website',
   },
   {
     num: '02',
@@ -35,8 +35,8 @@ const projects = [
     description: 'A modern landing page created with ReactJs and tailwindcss',
     stack: [{ name: 'ReactJs' }, { name: 'TailwindCss' }],
     image: '/assets/work/thumb2.png',
-    live: '',
-    github: '',
+    live: 'https://brainwave-website-nu.vercel.app/',
+    github: 'https://github.com/alexangria1992/brainwave-website',
   },
   {
     num: '03',
@@ -102,7 +102,7 @@ const Work = () => {
               {/* buttons */}
               <div className='flex items-center gap-4'>
                 {/* live project button */}
-                <Link href={project.live}>
+                <Link href={project.live} target='_blank'>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
@@ -116,7 +116,7 @@ const Work = () => {
                 </Link>
                 {/* github project button */}
 
-                <Link href={project.github}>
+                <Link href={project.github} target='_blank'>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className='w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group'>
