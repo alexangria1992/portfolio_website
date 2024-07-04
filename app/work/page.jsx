@@ -46,8 +46,8 @@ const projects = [
       'A modern portfolio website created with ReactJs and tailwindcss',
     stack: [{ name: 'NextJs' }, { name: 'TailwindCss' }],
     image: '/assets/work/thumb3.png',
-    live: '',
-    github: '',
+    live: 'https://portfolio-website-50f1xx8iu-alexangria1992s-projects.vercel.app/',
+    github: 'https://github.com/alexangria1992/portfolio_website',
   },
 ];
 const Work = () => {
